@@ -60,11 +60,20 @@ export const metadata: Metadata = {
     siteName: "sokuresu",
     title: "sokuresu.com - 即レス AI相談",
     description: "あなたの質問や相談にドストレートに即レスするAIサービス",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "sokuresu - AI相談サービス",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "sokuresu.com - 即レス AI相談",
     description: "あなたの質問や相談にドストレートに即レスするAIサービス",
+    images: ["/og-image.png"],
   },
   verification: {
     google: "google-site-verification-code",
